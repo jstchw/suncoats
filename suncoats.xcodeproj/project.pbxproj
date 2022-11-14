@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FCF5A8B2922F136000772FA /* suncoatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5A8A2922F136000772FA /* suncoatsApp.swift */; };
+		7FCF5A8D2922F136000772FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5A8C2922F136000772FA /* ContentView.swift */; };
+		7FCF5A8F2922F137000772FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCF5A8E2922F137000772FA /* Assets.xcassets */; };
+		7FCF5A922922F137000772FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCF5A912922F137000772FA /* Preview Assets.xcassets */; };
+		7FCF5A9C2922F137000772FA /* suncoatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5A9B2922F137000772FA /* suncoatsTests.swift */; };
+		7FCF5AA62922F137000772FA /* suncoatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5AA52922F137000772FA /* suncoatsUITests.swift */; };
+		7FCF5AA82922F137000772FA /* suncoatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5AA72922F137000772FA /* suncoatsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FCF5A982922F137000772FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCF5A7F2922F136000772FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FCF5A862922F136000772FA;
+			remoteInfo = suncoats;
+		};
+		7FCF5AA22922F137000772FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCF5A7F2922F136000772FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FCF5A862922F136000772FA;
+			remoteInfo = suncoats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FCF5A872922F136000772FA /* suncoats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suncoats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCF5A8A2922F136000772FA /* suncoatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suncoatsApp.swift; sourceTree = "<group>"; };
+		7FCF5A8C2922F136000772FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FCF5A8E2922F137000772FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FCF5A912922F137000772FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FCF5A972922F137000772FA /* suncoatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suncoatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCF5A9B2922F137000772FA /* suncoatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suncoatsTests.swift; sourceTree = "<group>"; };
+		7FCF5AA12922F137000772FA /* suncoatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suncoatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCF5AA52922F137000772FA /* suncoatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suncoatsUITests.swift; sourceTree = "<group>"; };
+		7FCF5AA72922F137000772FA /* suncoatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suncoatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FCF5A842922F136000772FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCF5A942922F137000772FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCF5A9E2922F137000772FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FCF5A7E2922F136000772FA = {
+			isa = PBXGroup;
+			children = (
+				7FCF5A892922F136000772FA /* suncoats */,
+				7FCF5A9A2922F137000772FA /* suncoatsTests */,
+				7FCF5AA42922F137000772FA /* suncoatsUITests */,
+				7FCF5A882922F136000772FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FCF5A882922F136000772FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FCF5A872922F136000772FA /* suncoats.app */,
+				7FCF5A972922F137000772FA /* suncoatsTests.xctest */,
+				7FCF5AA12922F137000772FA /* suncoatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FCF5A892922F136000772FA /* suncoats */ = {
+			isa = PBXGroup;
+			children = (
+				7FCF5A8A2922F136000772FA /* suncoatsApp.swift */,
+				7FCF5A8C2922F136000772FA /* ContentView.swift */,
+				7FCF5A8E2922F137000772FA /* Assets.xcassets */,
+				7FCF5A902922F137000772FA /* Preview Content */,
+			);
+			path = suncoats;
+			sourceTree = "<group>";
+		};
+		7FCF5A902922F137000772FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FCF5A912922F137000772FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FCF5A9A2922F137000772FA /* suncoatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FCF5A9B2922F137000772FA /* suncoatsTests.swift */,
+			);
+			path = suncoatsTests;
+			sourceTree = "<group>";
+		};
+		7FCF5AA42922F137000772FA /* suncoatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FCF5AA52922F137000772FA /* suncoatsUITests.swift */,
+				7FCF5AA72922F137000772FA /* suncoatsUITestsLaunchTests.swift */,
+			);
+			path = suncoatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FCF5A862922F136000772FA /* suncoats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCF5AAB2922F137000772FA /* Build configuration list for PBXNativeTarget "suncoats" */;
+			buildPhases = (
+				7FCF5A832922F136000772FA /* Sources */,
+				7FCF5A842922F136000772FA /* Frameworks */,
+				7FCF5A852922F136000772FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suncoats;
+			productName = suncoats;
+			productReference = 7FCF5A872922F136000772FA /* suncoats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FCF5A962922F137000772FA /* suncoatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCF5AAE2922F137000772FA /* Build configuration list for PBXNativeTarget "suncoatsTests" */;
+			buildPhases = (
+				7FCF5A932922F137000772FA /* Sources */,
+				7FCF5A942922F137000772FA /* Frameworks */,
+				7FCF5A952922F137000772FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCF5A992922F137000772FA /* PBXTargetDependency */,
+			);
+			name = suncoatsTests;
+			productName = suncoatsTests;
+			productReference = 7FCF5A972922F137000772FA /* suncoatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FCF5AA02922F137000772FA /* suncoatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCF5AB12922F137000772FA /* Build configuration list for PBXNativeTarget "suncoatsUITests" */;
+			buildPhases = (
+				7FCF5A9D2922F137000772FA /* Sources */,
+				7FCF5A9E2922F137000772FA /* Frameworks */,
+				7FCF5A9F2922F137000772FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FCF5AA32922F137000772FA /* PBXTargetDependency */,
+			);
+			name = suncoatsUITests;
+			productName = suncoatsUITests;
+			productReference = 7FCF5AA12922F137000772FA /* suncoatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FCF5A7F2922F136000772FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7FCF5A862922F136000772FA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7FCF5A962922F137000772FA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7FCF5A862922F136000772FA;
+					};
+					7FCF5AA02922F137000772FA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7FCF5A862922F136000772FA;
+					};
+				};
+			};
+			buildConfigurationList = 7FCF5A822922F136000772FA /* Build configuration list for PBXProject "suncoats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FCF5A7E2922F136000772FA;
+			productRefGroup = 7FCF5A882922F136000772FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FCF5A862922F136000772FA /* suncoats */,
+				7FCF5A962922F137000772FA /* suncoatsTests */,
+				7FCF5AA02922F137000772FA /* suncoatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FCF5A852922F136000772FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCF5A922922F137000772FA /* Preview Assets.xcassets in Resources */,
+				7FCF5A8F2922F137000772FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCF5A952922F137000772FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCF5A9F2922F137000772FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FCF5A832922F136000772FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCF5A8D2922F136000772FA /* ContentView.swift in Sources */,
+				7FCF5A8B2922F136000772FA /* suncoatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCF5A932922F137000772FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCF5A9C2922F137000772FA /* suncoatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FCF5A9D2922F137000772FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCF5AA82922F137000772FA /* suncoatsUITestsLaunchTests.swift in Sources */,
+				7FCF5AA62922F137000772FA /* suncoatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FCF5A992922F137000772FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FCF5A862922F136000772FA /* suncoats */;
+			targetProxy = 7FCF5A982922F137000772FA /* PBXContainerItemProxy */;
+		};
+		7FCF5AA32922F137000772FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FCF5A862922F136000772FA /* suncoats */;
+			targetProxy = 7FCF5AA22922F137000772FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FCF5AA92922F137000772FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FCF5AAA2922F137000772FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FCF5AAC2922F137000772FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"suncoats/Preview Content\"";
+				DEVELOPMENT_TEAM = N2786PQG27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hybridtheory.suncoats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FCF5AAD2922F137000772FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"suncoats/Preview Content\"";
+				DEVELOPMENT_TEAM = N2786PQG27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hybridtheory.suncoats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FCF5AAF2922F137000772FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2786PQG27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hybridtheory.suncoatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suncoats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/suncoats";
+			};
+			name = Debug;
+		};
+		7FCF5AB02922F137000772FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2786PQG27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hybridtheory.suncoatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suncoats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/suncoats";
+			};
+			name = Release;
+		};
+		7FCF5AB22922F137000772FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2786PQG27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hybridtheory.suncoatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = suncoats;
+			};
+			name = Debug;
+		};
+		7FCF5AB32922F137000772FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2786PQG27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hybridtheory.suncoatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = suncoats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FCF5A822922F136000772FA /* Build configuration list for PBXProject "suncoats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCF5AA92922F137000772FA /* Debug */,
+				7FCF5AAA2922F137000772FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCF5AAB2922F137000772FA /* Build configuration list for PBXNativeTarget "suncoats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCF5AAC2922F137000772FA /* Debug */,
+				7FCF5AAD2922F137000772FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCF5AAE2922F137000772FA /* Build configuration list for PBXNativeTarget "suncoatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCF5AAF2922F137000772FA /* Debug */,
+				7FCF5AB02922F137000772FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCF5AB12922F137000772FA /* Build configuration list for PBXNativeTarget "suncoatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCF5AB22922F137000772FA /* Debug */,
+				7FCF5AB32922F137000772FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FCF5A7F2922F136000772FA /* Project object */;
+}
