@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F91EAFD29253DFB00D40A60 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 7F91EAFC29253DFB00D40A60 /* SwiftyJSON */; };
 		7FCF5A8B2922F136000772FA /* suncoatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5A8A2922F136000772FA /* suncoatsApp.swift */; };
 		7FCF5A8D2922F136000772FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5A8C2922F136000772FA /* ContentView.swift */; };
 		7FCF5A8F2922F137000772FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCF5A8E2922F137000772FA /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		7FCF5A9C2922F137000772FA /* suncoatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5A9B2922F137000772FA /* suncoatsTests.swift */; };
 		7FCF5AA62922F137000772FA /* suncoatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5AA52922F137000772FA /* suncoatsUITests.swift */; };
 		7FCF5AA82922F137000772FA /* suncoatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5AA72922F137000772FA /* suncoatsUITestsLaunchTests.swift */; };
+		7FCF5AB52923AFD2000772FA /* weatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF5AB42923AFD2000772FA /* weatherAPI.swift */; };
+		7FCF5AB82923B837000772FA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7FCF5AB72923B837000772FA /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 		7FCF5AA12922F137000772FA /* suncoatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suncoatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCF5AA52922F137000772FA /* suncoatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suncoatsUITests.swift; sourceTree = "<group>"; };
 		7FCF5AA72922F137000772FA /* suncoatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suncoatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FCF5AB42923AFD2000772FA /* weatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F91EAFD29253DFB00D40A60 /* SwiftyJSON in Frameworks */,
+				7FCF5AB82923B837000772FA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +104,7 @@
 				7FCF5A8C2922F136000772FA /* ContentView.swift */,
 				7FCF5A8E2922F137000772FA /* Assets.xcassets */,
 				7FCF5A902922F137000772FA /* Preview Content */,
+				7FCF5AB42923AFD2000772FA /* weatherAPI.swift */,
 			);
 			path = suncoats;
 			sourceTree = "<group>";
@@ -143,6 +150,10 @@
 			dependencies = (
 			);
 			name = suncoats;
+			packageProductDependencies = (
+				7FCF5AB72923B837000772FA /* Alamofire */,
+				7F91EAFC29253DFB00D40A60 /* SwiftyJSON */,
+			);
 			productName = suncoats;
 			productReference = 7FCF5A872922F136000772FA /* suncoats.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,10 @@
 				Base,
 			);
 			mainGroup = 7FCF5A7E2922F136000772FA;
+			packageReferences = (
+				7FCF5AB62923B837000772FA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7F91EAFB29253DFB00D40A60 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 7FCF5A882922F136000772FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +274,7 @@
 			files = (
 				7FCF5A8D2922F136000772FA /* ContentView.swift in Sources */,
 				7FCF5A8B2922F136000772FA /* suncoatsApp.swift in Sources */,
+				7FCF5AB52923AFD2000772FA /* weatherAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +599,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F91EAFB29253DFB00D40A60 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7FCF5AB62923B837000772FA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F91EAFC29253DFB00D40A60 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F91EAFB29253DFB00D40A60 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		7FCF5AB72923B837000772FA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FCF5AB62923B837000772FA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FCF5A7F2922F136000772FA /* Project object */;
 }
